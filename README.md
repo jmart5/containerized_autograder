@@ -3,6 +3,13 @@
   <b>A easy-to-use autograding tool</b>
 </p>
 
+<h2> id="table-of-contents">_</h2> = $0
+<p>
+  <a href="#/?id=features">Features</a>
+  <a href="#/?id=installation">Installation</a>
+</p>
+
+
 
 ## Features
 
@@ -15,8 +22,7 @@
 
 ## Common Errors
 
-* Forgetting to add student submissions to the grading directory. ```AutograderError: No student submissions found in '/grading_dir'.
-```
+* Forgetting to add student submissions to the grading directory. <br>```AutograderError: No student submissions found in '/grading_dir'.```<br>
 This error can be correct by adding the student submission files to the grading directory (grading_dir).
 
 ## Background
