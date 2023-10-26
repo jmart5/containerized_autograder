@@ -13,6 +13,11 @@
 
 * To-do
 
+## Common Errors
+
+* Forgetting to add student submissions to the grading directory. ```{r}AutograderError: No student submissions found in '/grading_dir'.
+```
+This error can be correct by adding the student submission files to the grading directory (grading_dir).
 
 ## Background
 
