@@ -1,4 +1,4 @@
-<h1>Containerized Autograding Too</h1>
+<h1>Containerized Autograding Tool</h1>
 <p align="center">
   <b>A easy-to-use autograding tool</b>
 </p>
@@ -19,7 +19,10 @@
 
 ## Installation
 
-* To-do
+* Download the Docker container image [here] (todo). 
+* Download the folder structure zip file from the repository [here] (https://github.com/jmart5/containerized_autograder/tree/main).
+
+
 
 
 ## Use
