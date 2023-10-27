@@ -19,7 +19,7 @@
 
 ## Installation
 
-* Download the Docker container image [here] (todo). 
+* Download the Docker container image [here] https://hub.docker.com/repository/docker/jmart5/containerized_autograding/general). 
 * Download the folder structure zip file from the repository [here] (https://github.com/jmart5/containerized_autograder/tree/main).
 
 
