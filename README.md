@@ -3,12 +3,13 @@
   <b>A easy-to-use autograding tool</b>
 </p>
 
-<h2> id="table-of-contents">_</h2> = $0
-<p>
-  <a href="#/?id=features">Features</a>
-  <a href="#/?id=installation">Installation</a>
-</p>
+# Table of Contents
 
+- [Features](#features)
+- [Installation](#installation)
+- [Use](#use)
+- [Common Errors](#common-errors)
+- [Background](#background)
 
 
 ## Features
@@ -19,6 +20,9 @@
 ## Installation
 
 * To-do
+
+
+## Use
 
 ## Common Errors
 
