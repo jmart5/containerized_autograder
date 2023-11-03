@@ -1,3 +1,49 @@
+<style>
+  body {
+    background-color: #00264d;
+    border: 5px solid FLoralWhite;
+    padding: 2px;
+    font-family: "Verdana";
+  }
+
+  p {
+    color: FLoralWhite;
+    font-size: 16px;
+  }
+
+  h1 {
+    color: FLoralWhite;
+    font-size: 24px;
+  }
+
+  h2 {
+    color: FLoralWhite;
+    font-size: 20px;
+  }
+
+  ul {
+    list-style-type: square;
+    color: FLoralWhite;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: FLoralWhite;
+  }
+
+  code {
+    background-color: white;
+    padding: 4px;
+    font-family: "Helvetica", monospace;
+    color: Gray;
+  }
+</style>
+
+
 <h1>Containerized Autograding Tool</h1>
 <p align="center">
   <b>A easy-to-use autograding tool inside a container</b>
@@ -9,10 +55,12 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Use](#use)
+- [Tutorial](#tutorial)
 - [Common Errors](#common-errors)
 - [Reference Information](#reference-information)
 
 ## Description
+This is an autograding tool that runs inside a Docker container. This tool can be used to grade programming assignments automatically. All that is needed to use the tool is the Docker image and the specific directory strucutre discussed below. The student submisison files and testing files can be added to their respective directories. Then the tool can be executed. 
 
 ## Features
 
@@ -46,7 +94,10 @@
 
   The autograding container will be initiated. If any errors are encountered check [here](#common-errors) for more information.
 
-5. The results directory will be automatically created inside the main grading directory upon completion. Inside this directory, the `results_summary.csv` file contains a summary of the grades for each submission. Individual submission results are also available.
+5.The results directory will be automatically created inside the main grading directory upon completion. Inside this directory, the `results_summary.csv` file contains a summary of the grades for each submission. Individual submission results are also available.
+
+## Tutorial
+
 
 ## Common Errors
 
@@ -60,3 +111,4 @@ This error can be correct by adding the student submission files to the grading 
 ## Reference Information
 
 * An open-source autograding tool is used inside the container. The autograding tool, AutoGrader, was developed by ovsyanka83. For more information on AutoGrader, click [here](https://github.com/zmievsa/autograder).
+* The CSV results output file was generated using a python script developed by jmart5. For more information, click [here](https://github.com/jmart5/results_generator).
