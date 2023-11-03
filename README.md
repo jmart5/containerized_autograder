@@ -46,7 +46,7 @@
 
 <h1>Containerized Autograding Tool</h1>
 <p align="center">
-  <b>A easy-to-use autograding tool inside a container</b>
+  <b>An easy-to-use autograding tool inside a container</b>
 </p>
 
 # Table of Contents
