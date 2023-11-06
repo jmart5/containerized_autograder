@@ -31,8 +31,9 @@
   }
 
   a {
-    text-decoration: none;
-    color: FLoralWhite;
+    text-decoration: underline;
+    font-weight: bold;
+    color: FloralWhite;
   }
 
   code {
@@ -97,6 +98,50 @@ This is an autograding tool that runs inside a Docker container. This tool can b
 5.The results directory will be automatically created inside the main grading directory upon completion. Inside this directory, the `results_summary.csv` file contains a summary of the grades for each submission. Individual submission results are also available.
 
 ## Tutorial
+
+This tutorial walks through the steps required to setup and run the containerized autograder. A sample programming assignment in Python has been created. Student submission files and test case files have been generated for the sample assignment. Click [here](https://github.com/jmart5/containerized_autograder/tree/main/example) to download the sample files in order to complete this tutorial.<br>
+<br>
+**Make sure the Docker image and directory structure have been downloaded.**<br>
+<br>
+1 - Add the student submission files to the main grading directory.
+![Step 1](./page_content/tutorial_1.png)
+<br>
+<br>
+2 - Add test case files to the testcases directory located inside of the tests directory.
+![Step 2](./page_content/tutorial_2.png)
+<br>
+<br>
+3 - Use the command line to execute the startup command from inside the main grading directory ("Python101Example" directory shown in step 1)
+<br>
+<br>
+  Mac & Linux
+  `./startup/run_grader.sh`
+
+  Windows
+  `.\startup\run-autograder.bat`
+<br>
+<br>
+This will initiate the autograder container. Upon completion, a results folder will appear in the main grading directory. 
+<br>
+<br>
+![results](./page_content/tutorial_3.png)
+<br>
+<br>
+4 - Inside the results folder, individual results files have been generated for each student submission. The `results_summary.csv` file contains all of the results for each submission aggregated into a single CSV file.
+<br>
+<br>
+![results_content](./page_content/tutorial_4.png)
+<br>
+<br>
+Here are the aggregated results inside the CSV file:
+![results_content](./page_content/tutorial_5.png)
+<br>
+<br>
+
+Note - Student self-checking of assignments will follow the same steps as covered in this tutorial. The instructor must provide test cases. The instructor can directly provide the test files to students or place them inside the directory structure and distribute this. Instructors are recommended to only provide a subset of the test cases to students.
+<br>
+<br>
+Note - Additional examples are available from the developer of AutoGrader [here](https://github.com/zmievsa/autograder). Examples are provided in multiple programming languages. Also, input and output files are demonstrated in several examples.
 
 
 ## Common Errors
