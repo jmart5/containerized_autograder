@@ -38,7 +38,6 @@
 
   code {
     background-color: white;
-    border: 1px solid #000;
     padding: 4px;
     display: inline-block;
     font-family: "Helvetica", monospace;
