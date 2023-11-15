@@ -64,6 +64,7 @@
 - [Installation](#installation)
 - [Use](#use)
 - [Tutorial](#tutorial)
+- [Testing Files](#testing-files)
 - [Common Errors](#common-errors)
 - [Reference Information](#reference-information)
 
@@ -154,6 +155,15 @@ Note - Student self-checking of assignments will follow the same steps as covere
 <br>
 Note - Additional examples are available from the developer of AutoGrader [here](https://github.com/zmievsa/autograder). Examples are provided in multiple programming languages. Also, input and output files are demonstrated in several examples.
 
+## Testing Files
+There are four types of test files that can be created for the system to use during grading. The types include input, output, testcases, and extra. The first three types will be used the most frequently. Directories for each of these file types are located inside of the tests directory. There is also a config.toml file located in this directory. This file can be used to modify grading settings such as test case weights. If no modifications are made to this file, the default grading settings will be used by the tool. There is also a stdout_formatters.py file located inside the tests directory. This file can be used to setup the formatting of the student's outputs to aid in the grading process. This file is not required for the tool to work, but it can enhance the grading process. Below is a brief summary of the four types of test files:<br>
+
+* Test Cases - Use to call student's code. Usually, this is used to call functions is the student's code and check the results.
+* Inputs - Include standard input text files for testcases.
+* Outputs - Include standard output text files for testcases.
+* Extras - Include extra files that will be made available to test cases.
+
+A complete guide to writing testcases is provided in the original AutoGrader documenatation. Click [here](https://github.com/zmievsa/autograder/tree/main/docs) for more information.
 
 ## Common Errors
 
